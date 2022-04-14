@@ -1,0 +1,102 @@
+/* 초기설정 */
+
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../NanumSquareB.woff);
+}
+
+
+body {
+    font-family: '이쁜폰트',serif;
+    margin: 0
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+h4,h3,h2,h1,p,span {
+    transform: rotate(0.03deg)
+}
+
+html {
+    line-height: 1.15;
+}
+.float {
+    display: float;
+}
+
+
+
+.nav-max-width {
+    max-width: 10px;
+}
+
+.input-animation{
+  width: 200px;
+  transition: width 1s;
+}
+.input-animation:focus {
+  width: 350px;
+}
+
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background: #484bb3;
+  position: fixed;
+  z-index: 5;
+  color : white;
+  transition : all 0.5s;
+  transform : translateX(-100px);
+}
+.sidebar div {
+  margin : 15px 0px 0px 15px;
+}
+.content {
+  margin-left : 50px;
+}
+
+.sidebar:hover {
+  transition : all 0.5s;
+  transform: translateX(0px);
+    width: 110px;
+}
+
+.sidebar i {
+  transition: all 0.5s;
+  transform: translateX(100px);
+}
+.sidebar:hover i {
+  transform: translateX(0px);
+} 
+
+
+.white-box {
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+}
+
+flex-shrink-0 img {
+    width: 100px;
+}
+
+.profile-img-size {
+    max-width: 120px;
+    border-radius: 100%;
+}
+
+
+.pill {
+    display: inline-block;
+	border: 3px solid lightgray;
+	border-radius: 100px;
+	padding: 3px 12px 5px 12px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+    margin-top: 5px;
+}
